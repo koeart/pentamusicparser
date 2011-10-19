@@ -1,0 +1,16 @@
+The idea behind this project is, to automate my workflow a little bit:
+After each show I end up with a playlist (extended m3u) and a txt file created in an etherpad.
+
+I want to create a tar file from my m3u playlist, this functionality is covered by m3uparser.py
+
+I also want to parse my txt file for certain keywords (such as <link ...>...</link>, <song>...</song> and so on and so forth. From this I want to create my shownotes via (for example) xls.
+
+In later Versions I hope to be able to freely configure my parser: Depending on options given and a configuration file, different output shall be created, different tags shall be scanned for and so on and so forth.
+
+I'm always thankful for comments improving my code (which is, right now, quite simple and dumb).
+
+For comments use this github page or write to @koeart@identi.ca
+
+You can find my podcast at http://pentamedia.org/pentamusic
+
+Enjoy
